@@ -1,0 +1,68 @@
+h1 {
+    color: darkred;
+    font-size: larger 75%;
+}
+
+.content-name {
+color: yellowgreen;
+font-size: larger 50%;
+font-weight: bolder;
+border: 1px solid lightgreen;
+background-color: darkorange;
+}
+
+.content {
+    font-size: larger 25%;
+    font-style: initial;
+    background-color: darkmagenta;
+    color: white
+    
+}
+
+.col-lg-4col-md-6_col-sm-12 {
+    width: 100%;
+    margin: 40px;
+    float: left;
+    border: 2px solid lightseagreen;
+    padding: 20px;
+    background-color: darkslateblue;
+}
+
+@media (min-width: 992px) {
+    .col-lg-4col-md-6_col-sm-12 {
+        margin: 40px;
+        float: left;
+        border: 2px solid lightseagreen;
+        padding: 20px;
+        background-color: darkslateblue;
+    }
+    .col-lg-4col-md-6_col-sm-12 {
+        width: 75%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-lg-4col-md-6_col-sm-12 {
+        margin: 40px;
+        float: left;
+        border: 2px solid lightseagreen;
+        padding: 20px;
+        background-color: darkslateblue;
+    }
+    .col-lg-4col-md-6_col-sm-12 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-lg-4col-md-6_col-sm-12 {
+        margin: 40px;
+        float: left;
+        border: 2px solid lightseagreen;
+        padding: 20px;
+        background-color: darkslateblue;
+    }
+    .col-lg-4col-md-6_col-sm-12 {
+        width: 25%;
+    }
+}
